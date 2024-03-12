@@ -1,5 +1,6 @@
 # WSL_Bern_fire_susceptibility
-The script of this repository relates to a methodological report on canton Bern (Switzerland) ignition danger. It gathers the main steps and results with:
+The script relates to a methodological report on canton Bern (Switzerland) forest ignition danger. 
+It gathers the following main steps and results:
 - Variable selection
 - Response curves
 - Fire ignition modelling (SDM approach)
