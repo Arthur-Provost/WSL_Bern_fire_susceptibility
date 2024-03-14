@@ -89,8 +89,6 @@ prd_lst_VD <- list(rast_dbh_mean, rast_dbh_sd, rast_stem_density)
 
 
 
-
-
 #* ----
 # II) FOREST FIRE MODELLING  #####################################################
 ## 2.1) Testing variables for collinearity issues ===============================
@@ -122,7 +120,9 @@ response_curves(df_fire_choice = df_train,
                 s.gam = c(3,8),
                 plot.points = TRUE)
 
-
+sdogusdoöigjh
+sdfghjsdföghjoöi
+dfhjdföhjtroöiju
 
 
 
