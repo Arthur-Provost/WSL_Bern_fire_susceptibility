@@ -120,9 +120,6 @@ response_curves(df_fire_choice = df_train,
                 s.gam = c(3,8),
                 plot.points = TRUE)
 
-sdogusdoöigjh
-sdfghjsdföghjoöi
-dfhjdföhjtroöiju
 
 
 
