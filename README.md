@@ -3,11 +3,11 @@ The script relates to a methodological report on canton Bern (Switzerland) fores
 It gathers the following main steps and results:
 - Variable selection
 - Response curves
-- Fire ignition modelling (SDM approach)
+- Fire ignition modelling
 - Variable importance
 - Management options to mitigate fire danger
-  - General guideline per habitat types (GLMM approach)
-  - Variable priorization for management → context specific guidelines (XGB + Shapley values)
+  - General guideline per habitat types
+  - Variable priorization for management
 
 The data to run the script is available on this [link](https://drive.google.com/drive/folders/1YRootguDS7Kbb3rgLsVNUkI828AW1Q5n?usp=sharing). Most output data are already saved inside the output folder if you don't want to rerun the whole script. Those folders should be put in the same folder as the script in order not to break the script paths.
 
