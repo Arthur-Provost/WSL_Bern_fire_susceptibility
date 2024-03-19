@@ -8,3 +8,5 @@ It gathers the following main steps and results:
 - Management options to mitigate fire danger
   - General guideline per habitat types (GLMM approach)
   - Variable priorization for management → context specific guidelines (XGB + Shapley values)
+
+[test](https://drive.google.com/drive/folders/1YRootguDS7Kbb3rgLsVNUkI828AW1Q5n?usp=sharing)
