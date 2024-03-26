@@ -39,6 +39,8 @@ source("functions.r")  # loading functions in workspace
 
 
 
+
+
 ## 1.2) Loading data ===============================
 df_train <- read.csv("input/datasets/fires_training.csv", sep=",")  # training fire records for cross-validation
 df_test <- read.csv("input/datasets/fires_testing.csv", sep=",")  # testing fire records
