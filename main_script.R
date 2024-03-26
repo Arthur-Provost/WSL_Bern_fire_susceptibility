@@ -530,7 +530,7 @@ lvl_fag <- c("Galio-Fagenion", "Cephalanthero-Fagenion", "Lonicero-Fagenion", "A
 col_lvl <- rev(c("#ffeda0", "#feb24c", "#fc4e2a", "#b10026", "#6e0018"))
 
 
-par(mfrow=c(1,3), mar=c(10,1,1,1), oma=c(1,1,1,1), cex=2)  # Prepare plotting window
+par(mfrow=c(1,3), mar=c(10,1,1,1), oma=c(1,4,1,1), cex=2)  # Prepare plotting window
 for(i in 1:3){  # 1:3 for the VD var
   
   var_stat_noRescale <- apply(values(predictors_noTYPOCH[[i]]), 2, quantile, probs = c(0,.5,1), na.rm = TRUE)  # for plotting with correct x scale
@@ -559,6 +559,7 @@ plot(0, -4, type = 'l', bty = 'n', xaxt = 'n', yaxt = 'n')
 legend("bottom", inset = 0,
        legend = lvl_fag, col = col_lvl, lwd = 2.5, bty = "n", cex = 1,
        xpd = TRUE)
+mtext("Fire probability", side=2, line=-2, cex=2, outer=T)
 mtext("Fagus sylvatica - GLMM", side=3, line=-1.5, cex=2, outer=FALSE)
 
 
@@ -636,7 +637,7 @@ lvl_pic <- c("Abieti-Fagenion", "Abieti-Piceion", "Vaccinio-Piceion", "Sphagno-P
 col_lvl <- rev(c("#ffeda0", "#feb24c", "#fc4e2a", "#b10026"))
 
 
-par(mfrow=c(1,3), mar=c(10,1,1,1), oma=c(1,1,1,1), cex=2)  # Prepare plotting window
+par(mfrow=c(1,3), mar=c(10,1,1,1), oma=c(1,4,1,1), cex=2)  # Prepare plotting window
 for(i in 1:3){  # 1:3 for the VD var
   
   var_stat_noRescale <- apply(values(predictors_noTYPOCH[[i]]), 2, quantile, probs = c(0,.5,1), na.rm = TRUE)  # for plotting with correct x scale
@@ -665,6 +666,7 @@ plot(0, -4, type = 'l', bty = 'n', xaxt = 'n', yaxt = 'n')
 legend("bottom", inset = 0,
        legend = lvl_pic, col = col_lvl, lwd = 2.5, bty = "n", cex = 1,
        xpd = TRUE)
+mtext("Fire probability", side=2, line=-2, cex=2, outer=T)
 mtext("Picea abies - GLMM", side=3, line=-1.5, cex=2, outer=FALSE)
 
 
