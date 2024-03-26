@@ -163,7 +163,7 @@ df_occ_var_ALL <- df_occ_var_ALL |>     # adding predicted danger value per pres
 risk <- as.data.frame(df_occ_var_ALL$risk$ENS)
 env <- df_occ_var_ALL[,c(4:(ncol(df_occ_var_ALL)-1))]
 
-env_gd <- env[ ,names(env) %in% c("aspect_N", "evi", "precipitations", "slopee", "swb")]
+env_gd <- env[ ,names(env) %in% c("aspect_N", "evi", "precipitations", "slope", "swb")]
 env_hi <- env[ ,names(env) %in% c("log_dist_roads", "log_dist_build")]
 env_vd <- env[ ,names(env) %in% c("dbh_mean", "dbh_sd", "stem_density")]
 
