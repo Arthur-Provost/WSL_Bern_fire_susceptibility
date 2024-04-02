@@ -6,6 +6,7 @@
 
 # This script is associated with the methodological report.
 # Author: Arthur PROVOST (arthur.provost@wsl.ch or arthur.provost50@gmail.com)
+# Github repository: https://github.com/Arthur-Provost/WSL_Bern_fire_susceptibility
 
 
 #* ----
