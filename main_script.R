@@ -483,7 +483,7 @@ var_raw$TYPOCH <- as.factor(var_raw$TYPOCH)
 
 # Prepare variable names for labelling plots
 predictors_nm <- data.frame(pred_nm = colnames(var_raw), 
-                            lab_nm = c("DBH mean", "DBD sd", "Stem density", "Distance buildings", "Distance roads", "TYPOCH"))
+                            lab_nm = c("DBH mean", "DBH sd", "Stem density", "Distance buildings", "Distance roads", "TYPOCH"))
 
 
 
